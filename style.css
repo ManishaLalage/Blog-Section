@@ -62,8 +62,8 @@ section{
 
   .we__offer_card .course_img .img-text{
     position: absolute;
-background-color: #e81212;
-
+/* background-color: #e81212; */
+background-color: orangered;
     width: 50%;
     padding: 30px 80px 30px 30px;
     margin-left: -1%;
@@ -106,7 +106,8 @@ background-color: #e81212;
    
   }
   .we__offer_content .blog-icon i{
-    color: #e81212;
+    /* color: #e81212; */
+    color: orangered;
     text-align: center;
    
   }
