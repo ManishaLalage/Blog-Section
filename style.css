@@ -27,9 +27,10 @@
 
 /* section2 */
 section{
-   
+  /* background-color: #9a9bb2; */
     transition: all 0.4s ease;
-  
+    padding: 120px 2%;
+
   }
  
   .we__offer {
@@ -67,7 +68,7 @@ background-color: orangered;
     width: 50%;
     padding: 30px 80px 30px 30px;
     margin-left: -1%;
-    margin-bottom:1%;
+    /* margin-bottom:1%; */
     bottom: 0;
     left: 0;
     border-radius: 1000px 1000px 0px 0;
@@ -150,7 +151,7 @@ padding-left: 20px;
 }
   
   .we__offer_content a:hover{
-    color: #e81212;
+    color: orangered;
   }
   .course_btn {
     padding-bottom: 20px;

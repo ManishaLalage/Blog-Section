@@ -14,11 +14,7 @@
       padding: 90px 3%;
       transition: 0.2s;
     }
-   
   }
-  
-
-
 
   @media (max-width: 1050px) {
   
@@ -35,8 +31,7 @@
     .blog-left  .blog-left-icon span{
         /* padding-top: 20px; */
         padding-left: 10px;
-            /* border-right: 1.5px solid #9a9bb2;            ; */
-  padding-right: 10px;
+     padding-right: 10px;
   
   font-size: 0.9rem;
   
