@@ -120,11 +120,48 @@ font-size: 20px;
 padding-top: 20px;
   /* font-size: 1rem; */
   font-weight: 500;
+  line-height: 2rem;
+}
+
+.blog-content p span{
+  color: rgb(60, 60, 92);
+font-size: 1.3rem;
+font-weight: 600;
 
 }
 
+/* subcontent  */
 
+.sub-content1{
+  /* background-color: #fb8721; */
+}
+.sub-content1  .fa{
+  /* background-color: rgb(255, 255, 255); */
+  border-radius: 50%;
+  padding: 7px;
+  color:orangered;
+  margin: 20px 0;
+  margin-right:20px;
+  /* margin-left: 20px; */
+  box-shadow: 1px 1px 12px 4px rgb(211, 207, 207);
 
+}
+
+.sub-content1 .content{
+
+  /* background-color: chartreuse;  */
+   display: flex
+}
+
+/* .blog-content .p i .fa{
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  padding: 7px;
+  color:orangered;
+  margin: 20px 0;
+  margin-right:20px;
+  box-shadow: 1px 1px 12px 4px rgb(211, 207, 207);
+} */
 
 
 
