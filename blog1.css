@@ -93,6 +93,8 @@ color: rgb(71, 71, 110);
         /* background-color: #7121fb; */
         font-size: 1.2rem;
         font-weight: 500;
+        display: flex;
+        flex-wrap: wrap;
     /* background-color: #fb21c8; */
 
   }
@@ -111,10 +113,164 @@ color: rgb(71, 71, 110);
   }
 
 
+
+
+
+/*Social Icons  */
+.blog-left1   .social-icons {
+
+  /* background-color: chartreuse; */
+  display: grid;
+ grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 70px;
+padding: 40px;
+border-top: 2px solid #e0e0e0;
+}
+
+
+
+
+
+/* tags */
+
+
+.blog-left1 .social-icons .tags{
+  /* background-color: aqua; */
+  padding: 15px;
+  /* box-shadow: 0 0 25px 0 rgba(186, 183, 183, 0.4); */
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.social-icons .tags .tag-name{
+/*  */
+  /* padding: 14px 5px 5px 5px; */
+  /* padding-top:20px; */
+padding:10px;
+  /* background-color: #fa2424; */
+  /* padding: 10px; */
+  /* box-shadow: 0 0 25px 0 rgba(186, 183, 183, 0.4); */
+  border-radius: 10px;
+  color: rgb(71, 71, 110);
+  font-size: 1.5rem;
+font-weight: 600;
+  /* margin-right: 20px; */
+}
+ .tags .education{
+  
+  /* background-color: #21fb37; */
+  padding: 10px;
+  /* padding: 14px 5px 5px 5px; */
+  /* text-align: center; */
+  /* font-size: 1rem; */
+
+  box-shadow: 0 0 25px 0 rgba(186, 183, 183, 0.4);
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #9a9bb2;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
+ .tags .online{
+  margin-left: 10px;
+  /* background-color: #fb2150; */
+  /* padding: 12px; */
+  padding: 15px 0px 0px 0px;
+padding: 10px;
+  box-shadow: 0 0 25px 0 rgba(186, 183, 183, 0.4);
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #9a9bb2;
+}
+
+
+
+
+/* Share */
+
+
+
+.blog-left1 .social-icons  .heading{
+  /* background-color: rgb(9, 255, 0); */
+/* padding-right: 30px; */
+padding: 15px;
+margin-left: 12PX;
+/* margin-right: 20px; */
+color: rgb(71, 71, 110);
+font-size: 1.5rem;
+margin-right: 20px;
+}
+.blog-left1 .social-icons  .share-icon{
+  /* background-color: rgb(50, 106, 106); */
+  /* padding: 20px; */
+  color: rgb(71, 71, 110);
+  font-size: 1.5rem;
+  /* font-weight: 600; */
+  display: flex;
+}
+.blog-left1 .social-icons  .share-icon .icon {
+  display: flex;
+  /* background-color: #410aa0; */
+  /* padding-left: 50%; */
+  /* padding: 60px; */
+ /* margin-left: 10%; */
+}
+/* .blog-left1 .social-icons .share a {
+  
+font-size: 1.1rem;
+font-weight: 600;
+padding: 7px;
+} */
+
+ .share-icon .icon .sub-icon{
+  /* background-color: brown; */
+  padding: 15px;;
+  /* padding-left:60px; */
+  /* padding-right: 20px; */ 
+  /* margin-left:20px; */
+  box-shadow: 0 0 25px 0 rgba(186, 183, 183, 0.4);
+border-radius: 10px;
+}
+.sub-icon a {
+  /* margin-top: 80px; */
+  padding: 3px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #9a9bb2;
+  /* margin-left: 20PX; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* text-align: center; */
+  /* padding-left: 10px; */
+  /* padding-right: 10px; */
+  /* text-align: center; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Comment Section */
  .blog-left .blog-left2{
   box-shadow: 0 0 25px 0 rgba(186, 183, 183, 0.4);
   border: 10px;
   /* background-color: #fb8721; */
+  margin-top: 20px;
  }
 
  .blog-left2 h2{
@@ -133,16 +289,8 @@ color: rgb(71, 71, 110);
   color: rgb(71, 71, 110);
 padding: 00px 20px 20px 20px;
  }
- /* .blog-left2 .input-box{
-  padding: 10px;
-background-color: chartreuse;
- } */
-/* .blog-left2  .input-box input{
-  width: 100%;
-  padding: 8px;
 
 
-} */
 .main-comment{
   /* background-color: chartreuse; */
   padding: 20px;
@@ -187,6 +335,8 @@ background-color: chartreuse;
 /* justify-items: right; */
 /* text-align: center; */
 }
+
+
 
 .subcomment{
 display: grid;
