@@ -1,0 +1,140 @@
+
+/* Media Query  */
+
+/* Responsive  */
+
+@media (max-width: 1410px) {
+ 
+    section {
+      /* padding: 70px 3%; */
+      padding: 30px 3%;
+      transition: 0.2s;
+    }
+    .container {
+      padding: 90px 3%;
+      transition: 0.2s;
+    }
+   
+  }
+  
+  @media (max-width: 1050px) {
+  
+    .home {
+      padding-top: 140px;
+    }
+  }
+  
+  @media (max-width: 890px) {
+    .home {
+      /* top:200px; */
+      height: 150vh;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+  
+    .home-text {
+      /* padding-top: 20px; */
+    }
+    .home-img {
+      text-align: center;
+    }
+    .home-img img {
+      /* height: auto; */
+      /* width: 100%; */
+    }
+    .about {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+  
+  
+    .footer-container{
+      /* background-color: #E1306C; */
+      /* padding-top: 30px; */
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .home{ 
+      /* top: 150px; */
+    /* height: 137vh; */
+    }
+    .home .home-text h1{
+      font-size: 3rem;
+  }
+  
+  }
+  
+  @media (max-width: 300px) {
+    .home {
+      /* top: 150px; */
+      height: 120vh;
+    }
+    .home .home-text h6{
+      font-size: 15px;
+    }
+    .home .home-text h1{
+       font-size: 1.3rem;
+  }
+  }
+  
+  /* Mobile View  */
+  
+  @media (max-width: 1380px) {
+  
+    .header-icons{
+      display: none;
+    }
+    .navbar ul .search{
+      display: none;
+    }
+    .navbar ul .nav_btn{
+      display: none;
+    }
+    
+    .menu-bar ul li a {
+      font-weight: 660;
+      font-size: 27px;
+      /* text-decoration: none; */
+      color: black;
+      transition: all 0.3s;
+    }
+    .menu-bar ul li a:hover {
+      color: white;
+    }
+      .navbar .mainMenu {
+        height: 100vh;
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        left: 0px;
+        z-index: 10;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* background: rgb(0, 0, 0); */
+        /* background-color: #c883e6; */
+        background: linear-gradient(90deg,#eb5b2b,#eb9173,#f9b98c);
+  
+        transition: top 1s ease 0s;
+        display: none;
+      }
+      .navbar .mainMenu .closeMenu {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+      }
+      .navbar .openMenu {
+        display: block;
+        position: absolute;
+        right: 50px
+      }
+    }
+    @media (max-width: 663px) {
+    .menu-bar .logo img{
+      width: 30%;
+      margin-top: -12%;
+    }
+    }
+  
