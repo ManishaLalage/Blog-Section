@@ -23,7 +23,7 @@
   
   @media (max-width: 910px) {
     .main-blog{
-      height: 150vh;
+      /* height: 150vh; */
       grid-template-columns: 1fr;
       gap: 1rem;
     }
@@ -31,9 +31,8 @@
     .blog-left  .blog-left-icon span{
         /* padding-top: 20px; */
         padding-left: 10px;
-     padding-right: 10px;
-  
-  font-size: 0.9rem;
+        padding-right: 10px;
+        font-size: 0.9rem;
   
     }
     
@@ -42,7 +41,14 @@
   
   @media (max-width: 600px) {
    
+    .blog-left  .blog-left-icon span{
+        /* padding-top: 20px; */
+        padding-left: 9px;
+        padding-right: 9px;
+        font-size: 0.7rem;
   
+    }
+    
   }
   
   @media (max-width: 300px) {
