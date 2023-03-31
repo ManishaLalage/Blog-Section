@@ -86,7 +86,7 @@ color: rgb(71, 71, 110);
   }
 
 
-  .blog-left  .blog-left-icon .tag {
+  .blog-left  .blog-left-icon .icon-tag {
     /* padding-top: 5%; */
         border: none;
         /* margin-top: 45%; */
@@ -111,6 +111,26 @@ color: rgb(71, 71, 110);
 
     /* background-color: #e81212 */
   }
+
+.blog-content p{
+  /* color: rgb(71, 71, 110); */
+    color: rgb(60, 60, 92);
+/* padding: 10px; */
+font-size: 20px;
+padding-top: 20px;
+  /* font-size: 1rem; */
+  font-weight: 500;
+
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -270,7 +290,7 @@ border-radius: 10px;
   box-shadow: 0 0 25px 0 rgba(186, 183, 183, 0.4);
   border: 10px;
   /* background-color: #fb8721; */
-  margin-top: 20px;
+  /* margin-top: 20px; */
  }
 
  .blog-left2 h2{
