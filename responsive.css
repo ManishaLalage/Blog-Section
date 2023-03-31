@@ -32,17 +32,17 @@
       gap: 1rem;
     }
   
+    .blog-left  .blog-left-icon span{
+        /* padding-top: 20px; */
+        padding-left: 10px;
+            /* border-right: 1.5px solid #9a9bb2;            ; */
+  padding-right: 10px;
+  
+  font-size: 0.9rem;
+  
+    }
     
-    .about {
-      /* grid-template-columns: 1fr;
-      gap: 1rem; */
-    }
-  
-  
-    .footer-container{
-      /* background-color: #E1306C; */
-      /* padding-top: 30px; */
-    }
+    
   }
   
   @media (max-width: 600px) {

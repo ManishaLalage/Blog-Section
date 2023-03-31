@@ -282,6 +282,7 @@ margin-right: 20px;
 }
 .blog-left1 .social-icons  .share-icon .icon {
   display: flex;
+  flex-wrap: wrap;
   /* background-color: #410aa0; */
   /* padding-left: 50%; */
   /* padding: 60px; */
