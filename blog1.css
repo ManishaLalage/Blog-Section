@@ -51,7 +51,7 @@
     }
 
     .blog-left{
-      box-shadow: 0 0 25px 0 rgba(186, 183, 183, 0.4);
+      /* box-shadow: 0 0 25px 0 rgba(186, 183, 183, 0.4); */
 
         /* background-color: chartreuse; */
     }
@@ -110,6 +110,15 @@ color: rgb(71, 71, 110);
     /* color: rgb(71, 71, 110); */
 
     /* background-color: #e81212 */
+  }
+
+
+  .blog-left .blog-left1{
+/* background-color: greenyellow; */
+margin-bottom: 20px;
+border-radius: 10px;
+box-shadow: 0 0 25px 0 rgba(186, 183, 183, 0.4);
+
   }
 
 .blog-content p{
@@ -325,9 +334,10 @@ border-radius: 10px;
 /* Comment Section */
  .blog-left .blog-left2{
   box-shadow: 0 0 25px 0 rgba(186, 183, 183, 0.4);
-  border: 10px;
+  /* border: 10px; */
   /* background-color: #fb8721; */
   /* margin-top: 20px; */
+  border-radius: 10px;
  }
 
  .blog-left2 h2{
