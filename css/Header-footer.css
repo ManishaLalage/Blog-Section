@@ -185,7 +185,7 @@ header .nav-item a:hover {
 footer{
   display: relative;
   background-color: #000121;
-  height: 80vh;
+  /* height: 80vh; */
 }
 
 .footer-container{

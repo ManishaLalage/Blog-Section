@@ -29,7 +29,7 @@
 section{
   /* background-color: #9a9bb2; */
     transition: all 0.4s ease;
-    padding: 120px 2%;
+    padding: 130px 2%;
 
   }
  
@@ -103,7 +103,7 @@ background-color: orangered;
     gap: 1rem;
   }
   .we__offer_content .blog-icon span{
-    padding-left: 12px;
+    /* padding-left: 12px; */
    
   }
   .we__offer_content .blog-icon i{
