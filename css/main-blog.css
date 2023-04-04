@@ -178,6 +178,9 @@ padding-left: 20px;
 /* Resonsive */
 
 @media (max-width: 910px) {
+section{
+  padding: 130px 7%;
+}
 
 .we__offer_content .blog-icon {
  
