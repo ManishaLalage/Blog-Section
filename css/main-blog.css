@@ -197,5 +197,20 @@ section{
 
 }
 
+@media (max-width: 910px) {
+
+
+  .we__offer_content h2{
+
+    font-size: 1.1rem;
+    font-weight:700;
+}
+
+.we__offer_content .subcontent p {
+  font-size: o.6rem;
+  font-weight: 500;
+
+}
+}
 
 
