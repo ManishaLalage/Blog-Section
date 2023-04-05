@@ -133,7 +133,7 @@ padding-left: 20px;
   
   .we__offer_content .subcontent p {
 
-    font-size: 1.1rem;
+    /* font-size: 1.1rem;/ */
     color: rgb(71, 71, 110);
     padding: 0px 0px 20px 10px;
     font-weight: 500;
@@ -214,3 +214,15 @@ section{
 }
 
 
+@media (max-width: 300px) {
+
+  .we__offer_content .blog-icon {
+    /* background-color: aqua; */
+    font-size: 0.5rem;
+  }
+ .we__offer_content .blog-icon .fa-regular{
+    padding-left: 5px;
+    /* background-color: #fb8721; */
+ }
+
+}
